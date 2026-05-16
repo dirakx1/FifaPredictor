@@ -1,7 +1,7 @@
 from .team import Team, TeamStats
 from .player import Player, PlayerStats
 from .match import Match, MatchResult, GoalEvent
-from .prediction import MatchPrediction, TournamentPrediction, TopScorerPrediction
+from .prediction import MatchPrediction, TournamentPrediction, TopScorerPrediction, GoalTimingBucket
 
 __all__ = [
     "Team", "TeamStats",
